@@ -1,3 +1,11 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/24/05/38/creative-background-1004043_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .ss-container{
     width: 100%;
     position: relative;
@@ -59,7 +67,9 @@ span{
     text-shadow: 0 0 11px rgba(33,33,33, 0.8);
 
 }
-
+hr{
+    border: 2px solid ;
+}
 .timeline-left{
     border: 2px solid black;
     font-size: 12px;
@@ -70,6 +80,10 @@ span{
     background: rgba(222, 220, 200, 0.815);
     text-align: center;
     border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .timeline-right{
     border: 2px solid black;
@@ -81,6 +95,10 @@ span{
     background: rgba(222, 220, 200, 0.815);
     text-align: center;
     border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .timeline-left:hover{
     box-shadow: 0 0 11px rgba(33,33,33, 0.5);
