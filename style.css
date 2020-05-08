@@ -30,7 +30,7 @@ body {
         margin-top: 20px;
         border-radius: 20px;
 }
-/* .sidenav{
+.sidenav{
     height: 100%;
     width: 0;
     position: fixed;
@@ -72,7 +72,11 @@ body {
 .main-menu:hover,nav.main-menu.expanded {
     width:250px;
     overflow:visible;
-    }  */
+    } 
+span{
+    font-size: 30px;
+    cursor: pointer;
+}
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* background-image: url("https://cdn.hipwallpaper.com/i/61/17/9x51ye.jpg"); */
