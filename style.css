@@ -99,46 +99,39 @@ body{
 h2{
     text-decoration: underline;
     text-align: center;
+    color: #818181;
 }
 a{
     text-align: right;
     text-decoration: none;
     color:rgb(33, 37, 41);
 }
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+.dropdown-btn{
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    background: rgb(7, 7, 7);
+    border: rgb(7, 7, 7);
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    transition: 0.3s;
+    text-align: right;
+    margin-left: 81px;
+}
+button.dropdown-btn:hover{
+    color: rgb(255, 17, 17)
+}
+.active{
+    border-color: black;
+}
+.dropdown-container{
+    display: none;
+    background-color: #262626;
+}
+.fa-facebook-square{
+    float: left;
+    color: rgb(7, 7, 7)
+}
 
 .class{
     align-content: center;
