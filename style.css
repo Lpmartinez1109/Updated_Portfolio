@@ -9,7 +9,7 @@ body {
 } 
 #particles-js{
     height: 100%;
-    background: linear-gradient(to left, black,rgb(255, 0, 51), black);
+    background: linear-gradient(to left, rgb(255,0,51),black,rgb(255, 0, 51));
     /* z-index: -1; */
 }                                        
   main {
@@ -71,7 +71,6 @@ body {
     padding: 10px 15px;
     border: none;
 }
-
 .main-menu:hover,nav.main-menu.expanded {
     width:250px;
     overflow:visible;
@@ -81,24 +80,31 @@ span{
     cursor: pointer;
     position: absolute;
     margin-left: 20px;
+    /* z-index: 1; */
 }
-
 .homePage{
     position: absolute;
-    margin-left: 150px;
+    margin-left: 350px;
+    margin-top: 150px;
+    text-align: center;
+    /* margin: auto; */
+    width: 50%;
+    height: 70px;
 }
-
 section{
   margin-top: 20px;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(to left, black,rgb(255, 0, 51), black);
+    background: linear-gradient(to left, rgb(255,0,51),black,rgb(255, 0, 51));
 
 }
 h2{
     text-decoration: underline;
     text-align: center;
+    color: #818181;
+}
+p{
     color: #818181;
 }
 a{
@@ -132,7 +138,6 @@ button.dropdown-btn:hover{
     float: left;
     color: rgb(7, 7, 7)
 }
-
 .class{
     align-content: center;
 }
@@ -146,7 +151,6 @@ button.dropdown-btn:hover{
   text-align: center;
   border-top: 10px solid rgb(33, 37, 41);
 }
-
 .container-hover{
     display: flex;
   width: 100%;
@@ -159,9 +163,8 @@ button.dropdown-btn:hover{
     height: 90%;
     object-fit: cover; 
     transition: .5s;
-  }
-  
-  .box > span {
+  } 
+.box > span {
     font-size: 3.8vh;
     display: block;
     text-align: center;
@@ -170,8 +173,8 @@ button.dropdown-btn:hover{
     background-color: rgba(255, 255, 255, 0.2);
   }
   
-  .box:hover { flex: 1 1 50%; }
-  .box:hover > img {
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
     width: 125%;
     height: 80%;
   }
@@ -210,4 +213,5 @@ button.dropdown-btn:hover{
 @media screen and (max-height: 450px){
     .sidenav{padding-top: 15px}
     .sidenav a {font-size: 18px;}
+    .homePage {margin-right: 90px;}
 } 
