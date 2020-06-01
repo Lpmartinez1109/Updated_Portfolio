@@ -213,7 +213,14 @@ button.dropdown-btn:hover{
 @media screen and (max-height: 450px){
     .sidenav{padding-top: 15px}
     .sidenav a {font-size: 18px;}
-    .homePage {margin: 180px;}
+    .homePage {
+        margin-left: 118px;
+        margin-top: 50px;
+    }
     /* h2{ margin-right: 90px;}
     p{margin-right: 90px;} */
 } 
+
+@media screen and (max-height: 1366px){
+    .homepage{margin-left: 265px;}
+}
