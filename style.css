@@ -210,7 +210,7 @@ button.dropdown-btn:hover{
         opacity: 0;
     }
 }
-@media screen and (max-height: 450px){
+@media screen and (min-height: 450px){
     .sidenav{padding-top: 15px}
     .sidenav a {font-size: 18px;}
     .homePage {
@@ -221,6 +221,9 @@ button.dropdown-btn:hover{
     p{margin-right: 90px;} */
 } 
 
-@media screen and (max-height: 1366px){
-    .homepage{margin-left: 265px;}
+@media screen and (min-height: 550px){
+    .homePage{margin-left: 165px;}
+}
+@media screen and (min-height: 650px){
+    .homePage { margin-left: 135px;}
 }
